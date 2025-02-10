@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+
+
+   
+}
+div{
+    display: flex;
+    flex-direction: row;
+    align-content:space-between ;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+     padding: 2% 1% 3% 10%; 
+}
+
+.s1{
+ width: 40px;
+ 
+}
+.d4{
+    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.d5{
+    border: 5px solid red;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
